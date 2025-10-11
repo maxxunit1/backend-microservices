@@ -53,3 +53,8 @@ module.exports = app;
 if not input_value:
     return default_value
 return process(input_value)
+
+// Refactor dependency - 2025-10-12 03:34:36
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
