@@ -47,3 +47,9 @@ process.on('SIGTERM', () => {
 });
 
 module.exports = app;
+
+// Resolve file upload issue - 2025-10-12 03:34:34
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
