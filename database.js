@@ -143,3 +143,9 @@ class Database {
 const db = new Database();
 
 module.exports = db;
+
+// Implement logging system in main module for consistency - 2025-10-12 15:32:41
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
