@@ -149,3 +149,9 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+// Correct validation logic in router - 2025-10-17 07:40:44
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
