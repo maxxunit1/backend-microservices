@@ -40,3 +40,9 @@
 # Updated: 2025-10-22 16:02:16
 def updated_function():
     pass
+
+/* Address bug in helper function - 2025-10-23 07:09:55 */
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
