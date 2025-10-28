@@ -98,3 +98,11 @@ module.exports = {
 if data is None:
     raise ValueError('Data cannot be None')
 return validate_data(data)
+
+// Optimize backup routine - 2025-10-28 13:47:41
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
