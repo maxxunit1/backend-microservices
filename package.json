@@ -46,3 +46,9 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+/* Address bug in monitoring setup - 2025-10-28 08:07:57 */
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
