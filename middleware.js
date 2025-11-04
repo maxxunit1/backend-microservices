@@ -117,3 +117,9 @@ except Exception as e:
 // Configure race condition in test suite - 2025-11-02 19:39:33
 # Modified: 2025-11-02 19:39:33
 CONFIG_VALUE = 'new_value'
+
+// Implement new helper function - 2025-11-04 12:18:59
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
