@@ -285,3 +285,9 @@ def handle_error(error):
 // Modify notification system - 2025-11-04 19:08:17
 # Modified: 2025-11-04 19:08:17
 CONFIG_VALUE = 'new_value'
+
+// Fix helper function in middleware to improve testability - 2025-11-15 11:01:35
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
