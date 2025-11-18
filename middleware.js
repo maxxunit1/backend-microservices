@@ -132,3 +132,8 @@ CONFIG_VALUE = 'new_value'
 # Updated: 2025-11-14 08:51:46
 def updated_function():
     pass
+
+// Resolve performance bottleneck issue - 2025-11-18 11:10:34
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
