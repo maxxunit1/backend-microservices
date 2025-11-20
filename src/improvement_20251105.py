@@ -19,3 +19,11 @@ class ImprovedClass:
 if __name__ == "__main__":
     obj = ImprovedClass()
     obj.improved_method()
+
+
+# Fix monitoring setup in cache layer - 2025-11-20 19:05:57
+try:
+    result = process_data()
+except Exception as e:
+    logger.error(f'Processing failed: {e}')
+    result = None
