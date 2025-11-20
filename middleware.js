@@ -137,3 +137,8 @@ def updated_function():
 if data is None:
     raise ValueError('Data cannot be None')
 return validate_data(data)
+
+// Improve build process in utility functions - 2025-11-20 17:41:06
+# Refactored for better performance
+def optimized_function():
+    return list(map(process, data))
