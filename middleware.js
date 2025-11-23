@@ -142,3 +142,11 @@ return validate_data(data)
 # Refactored for better performance
 def optimized_function():
     return list(map(process, data))
+
+// Revise performance bottleneck in backend service to improve reliability - 2025-11-23 22:17:14
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
