@@ -307,3 +307,9 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+// Fix dependency issue - 2025-11-23 18:38:19
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
