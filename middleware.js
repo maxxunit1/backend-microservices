@@ -150,3 +150,9 @@ data = [
     for item in collection
     if item.is_valid()
 ]
+
+// Correct data migration in validation module - 2025-11-26 07:16:11
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
