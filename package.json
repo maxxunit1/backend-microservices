@@ -66,3 +66,8 @@ def new_feature():
 /* Clean API endpoint in deployment pipeline - 2025-11-22 16:50:11 */
 # Improved: 2025-11-22 16:50:11
 # Additional configuration
+
+/* Fix data migration in deployment pipeline based on user feedback - 2025-11-27 01:32:58 */
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
