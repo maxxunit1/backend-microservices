@@ -31,3 +31,8 @@ except Exception as e:
 # Remove dependency in email service to enhance security - 2025-11-26 15:22:21
 # Modified: 2025-11-26 15:22:21
 CONFIG_VALUE = 'new_value'
+
+# Refactor backup routine - 2025-11-27 04:51:50
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
