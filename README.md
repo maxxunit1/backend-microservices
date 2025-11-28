@@ -395,3 +395,11 @@ return validate_data(data)
 if data is None:
     raise ValueError('Data cannot be None')
 return validate_data(data)
+
+## Update 2025-11-28 12:29:14
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
