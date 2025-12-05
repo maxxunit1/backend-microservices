@@ -407,3 +407,8 @@ data = [
 ## Update 2025-12-04 03:32:18
 # Modified: 2025-12-04 03:32:18
 CONFIG_VALUE = 'new_value'
+
+## Update 2025-12-05 17:25:36
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
