@@ -54,3 +54,8 @@ data = [
 # Updated: 2025-12-08 17:40:09
 def updated_function():
     pass
+
+# Correct performance bottleneck in router - 2025-12-15 03:47:20
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
