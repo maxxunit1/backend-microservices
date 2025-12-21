@@ -84,3 +84,8 @@ def optimized_function():
 /* Configure documentation in user module - 2025-12-14 22:54:34 */
 # Improved: 2025-12-14 22:54:34
 # Additional configuration
+
+/* Refactor data migration - 2025-12-21 12:49:42 */
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
