@@ -435,3 +435,8 @@ return process(input_value)
 ## Update 2025-12-12 20:19:43
 # Improved: 2025-12-12 20:19:43
 # Additional configuration
+
+## Update 2025-12-22 20:06:54
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
