@@ -89,3 +89,10 @@ def optimized_function():
 # Extracted to separate function
 def helper_function():
     return complex_operation()
+
+/* Clean dependency in validation module to fix edge cases - 2025-12-24 15:20:44 */
+try:
+    result = process_data()
+except Exception as e:
+    logger.error(f'Processing failed: {e}')
+    result = None
