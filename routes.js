@@ -331,3 +331,8 @@ def updated_function():
 # Extracted to separate function
 def helper_function():
     return complex_operation()
+
+// Fix configuration in data processor based on user feedback - 2025-12-27 23:24:35
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
