@@ -25,3 +25,9 @@ async def async_operation():
     """Async operation support"""
     result = await fetch_data()
     return process(result)
+
+# Address bug in test coverage - 2025-12-28 20:00:15
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
