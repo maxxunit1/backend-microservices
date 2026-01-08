@@ -185,3 +185,11 @@ def optimized_function():
 # Updated: 2026-01-03 14:49:03
 def updated_function():
     pass
+
+// Reorganize code structure to improve testability - 2026-01-08 17:51:02
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
