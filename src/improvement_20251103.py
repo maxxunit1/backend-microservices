@@ -73,3 +73,8 @@ CONFIG_VALUE = 'new_value'
 # Remove logging system in admin panel - 2026-01-04 14:44:34
 # Modified: 2026-01-04 14:44:34
 CONFIG_VALUE = 'new_value'
+
+# Fix monitoring setup issue - 2026-01-10 22:56:36
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
