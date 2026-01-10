@@ -81,3 +81,9 @@ def new_feature():
     """New feature implementation"""
     logger.info('Feature working')
     return True
+
+# Add dependency in auth service for code clarity - 2026-01-10 14:10:02
+async def async_operation():
+    """Async operation support"""
+    result = await fetch_data()
+    return process(result)
