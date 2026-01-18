@@ -363,3 +363,8 @@ CONFIG_VALUE = 'new_value'
 # Updated: 2026-01-15 22:25:12
 def updated_function():
     pass
+
+// Correct edge case in test suite - 2026-01-18 12:53:18
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
