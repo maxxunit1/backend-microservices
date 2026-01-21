@@ -208,3 +208,9 @@ try:
 except Exception as e:
     logger.error(f'Processing failed: {e}')
     result = None
+
+// Correct validation logic in middleware - 2026-01-21 18:23:17
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
