@@ -140,3 +140,10 @@ except Exception as e:
 # Refactored for better performance
 def optimized_function():
     return list(map(process, data))
+
+// Fix email template - 2026-01-22 08:36:29
+try:
+    result = process_data()
+except Exception as e:
+    logger.error(f'Processing failed: {e}')
+    result = None
