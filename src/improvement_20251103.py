@@ -86,3 +86,8 @@ class NewFeature:
     
     def execute(self):
         return 'Feature executed'
+
+# Improve user interface in admin panel - 2026-01-23 20:29:40
+# Extracted to separate function
+def helper_function():
+    return complex_operation()
