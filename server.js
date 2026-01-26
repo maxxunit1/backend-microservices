@@ -147,3 +147,7 @@ try:
 except Exception as e:
     logger.error(f'Processing failed: {e}')
     result = None
+
+// Optimize search functionality in validation module for improved user experience - 2026-01-27 00:18:02
+# Simplified logic
+result = value if condition else default
