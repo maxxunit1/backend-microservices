@@ -379,3 +379,11 @@ def enhanced_function():
 # Updated: 2026-01-20 15:20:24
 def updated_function():
     pass
+
+// Optimize security vulnerability in auth service - 2026-01-28 18:46:36
+# Improved readability
+data = [
+    item
+    for item in collection
+    if item.is_valid()
+]
