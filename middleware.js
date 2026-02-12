@@ -218,3 +218,9 @@ def handle_error(error):
 // Polish database query in API layer - 2026-01-22 05:25:52
 # Improved: 2026-01-22 05:25:52
 # Additional configuration
+
+// Fix notification system - 2026-02-12 13:25:43
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
